@@ -1,0 +1,28 @@
+### GET ALL NOTES
+GET http://localhost:3000/notes
+
+### GET ONE NOTE
+GET http://localhost:3000/notes/23NVU8UTV4BIFT9034
+
+### POST A NOTE
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title": "Web development",
+    "content": "Develop a web application",
+    "created_at":""
+}
+
+### UPDATE A PROJECT
+PUT http://localhost:3000/notes/e44e2380-ac6a-4712-9f8b-56664ec24360
+Content-Type: application/json
+
+{
+    "title": "Web dev",
+    "content": "Develop a web application",
+    "created_at":"2024-06-05"
+}
+
+### DELETE A PROJECT
+DELETE  http://localhost:3000/notes/8c0f603c-da6d-4998-8846-502bf50ecd33
